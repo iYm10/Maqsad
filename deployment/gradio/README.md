@@ -18,4 +18,4 @@ Interactive Arabic sarcasm and sentiment analysis with a fine-tuned MARBERT mode
 
 Explore single texts, analyze a collection, and compare experiment results. The app downloads the trained checkpoint from `yahya-ai10/maqsad-marbert`; no training is required. It supports CPU and Hugging Face ZeroGPU through a queued GPU inference function.
 
-[Project and methodology](https://github.com/iYm10/NLP_Capstone) · [Trained checkpoint](https://huggingface.co/yahya-ai10/maqsad-marbert)
+[Project and methodology](https://github.com/iYm10/Maqsad) · [Trained checkpoint](https://huggingface.co/yahya-ai10/maqsad-marbert)

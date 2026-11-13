@@ -100,7 +100,7 @@ python -m maqsad.baseline
 
 ### Deployment
 
-For Streamlit Community Cloud, select repository `iYm10/NLP_Capstone`, branch `main`, entry point `app.py`, and Python 3.12. Dependencies are installed from `requirements.txt`. Available hosting memory must be sufficient for the model; deployment resource requirements have not been benchmarked.
+For Streamlit Community Cloud, select repository `iYm10/Maqsad`, branch `main`, entry point `app.py`, and Python 3.12. Dependencies are installed from `requirements.txt`. Available hosting memory must be sufficient for the model; deployment resource requirements have not been benchmarked.
 
 Optional settings:
 
@@ -127,7 +127,7 @@ python -m ipykernel install --sys-prefix --name python3
 python scripts/execute_notebook.py
 ```
 
-**MARBERT experiments:** open the [training notebook in Colab](https://colab.research.google.com/github/iYm10/NLP_Capstone/blob/main/notebooks/02_marbert_finetuning.ipynb) with a GPU runtime, or run:
+**MARBERT experiments:** open the [training notebook in Colab](https://colab.research.google.com/github/iYm10/Maqsad/blob/main/notebooks/02_marbert_finetuning.ipynb) with a GPU runtime, or run:
 
 ```bash
 python -m maqsad.train --task sentiment --revision 88e1fa192dd723cf0b3563500aec46209762eb22 --output artifacts/marbert-sentiment

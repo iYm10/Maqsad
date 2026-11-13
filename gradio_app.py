@@ -193,8 +193,8 @@ Does learning sarcasm alongside sentiment improve Arabic sentiment classificatio
 
 ArSarcasm-v2 · 3,000 test examples · seed 42. Scores are held-out evaluation results, not predictions for the text entered above.''')
             with gr.Accordion('Data, limitations and methodology'):
-                gr.Markdown('Historical Arabic tweets cover multiple dialects with unequal representation. The Maghrebi test group has only two examples. Results need further evaluation across seeds and domains. [Read the experiment report](https://github.com/iYm10/NLP_Capstone/blob/main/reports/EXPERIMENT_REPORT.md).')
-        gr.Markdown('[GitHub](https://github.com/iYm10/NLP_Capstone) · [Model on Hugging Face](https://huggingface.co/yahya-ai10/maqsad-marbert) · [Streamlit dashboard](https://nlpcapstone-ya.streamlit.app/)\n\nMAQSAD · Arabic language, with context in mind.', elem_id='footer')
+                gr.Markdown('Historical Arabic tweets cover multiple dialects with unequal representation. The Maghrebi test group has only two examples. Results need further evaluation across seeds and domains. [Read the experiment report](https://github.com/iYm10/Maqsad/blob/main/reports/EXPERIMENT_REPORT.md).')
+        gr.Markdown('[GitHub](https://github.com/iYm10/Maqsad) · [Model on Hugging Face](https://huggingface.co/yahya-ai10/maqsad-marbert) · [Streamlit dashboard](https://nlpcapstone-ya.streamlit.app/)\n\nMAQSAD · Arabic language, with context in mind.', elem_id='footer')
     return demo.queue(default_concurrency_limit=1, max_size=20)
 
 
